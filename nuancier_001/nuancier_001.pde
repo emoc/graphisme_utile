@@ -30,6 +30,7 @@ int index_colors = 0;
 
 void setup() {
   size(595, 842);
+  background(255);
   nb_colors = colors.length;
   println("nb colors : " + nb_colors);
   noLoop();
